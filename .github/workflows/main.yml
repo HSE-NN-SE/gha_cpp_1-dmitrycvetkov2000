@@ -42,4 +42,4 @@ jobs:
          g++ --version
       - name: build
         run: |
-         gcc calc.yml -o Calc
+         gcc calc.c -o Calc
