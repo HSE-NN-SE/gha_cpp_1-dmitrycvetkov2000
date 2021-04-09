@@ -37,6 +37,6 @@ jobs:
       - name: dir  calc.exe
         run: |
          dir
-      - name: build  calc.exe
+      - name: version comp
         run: |
-         build calc.yml
+         gcc --version
