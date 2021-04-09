@@ -34,7 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-      - name: Post Run Actions/checkout@v2
-        run: echo Hello, world!
-      - name: Complete job
-        run: echo Hello, world!
+      - name: Build  calc.EXE
+        run: |
+         cmake -G "NMake Makefiles" .
+         nmake
