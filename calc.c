@@ -3,7 +3,7 @@ using namespace std;
 
 class calc {
 private:
-	int x;//операнд
+	int x;////операнд
 public:
 	calc() {
 		x = 0;
