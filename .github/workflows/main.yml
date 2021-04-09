@@ -45,4 +45,4 @@ jobs:
          g++ calc.c
       - name: exe
         run: |
-         g++ maim.cpp -o main.exe
+         g++ main.cpp -o main.exe
