@@ -37,6 +37,6 @@ jobs:
       - name: dir  calc.exe
         run: |
          dir
-      - name: dir  calc.exe
+      - name: build  calc.exe
         run: |
          build calc.yml
