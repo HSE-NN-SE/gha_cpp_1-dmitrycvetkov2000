@@ -34,7 +34,6 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-      - name: Build  calc.EXE
+      - name: Build  calc.exe
         run: |
-         cmake -G "NMake Makefiles" .
-         nmake
+         cmake main.yml
