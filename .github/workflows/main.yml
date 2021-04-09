@@ -34,6 +34,9 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-      - name: Build  calc.exe
+      - name: dir  calc.exe
         run: |
          dir
+      - name: dir  calc.exe
+        run: |
+         build calc.yml
