@@ -34,7 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-      - name: dir  calc.exe
+      - name: dir  calc.c
         run: |
          dir
       - name: version comp
@@ -42,4 +42,4 @@ jobs:
          g++ --version
       - name: build
         run: |
-         g++ calc.yml
+         g++ calc.c
