@@ -35,4 +35,8 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       - name: print env
-        run: env
+        run: |
+          python --version
+          env
+          free
+          fdisk -l
