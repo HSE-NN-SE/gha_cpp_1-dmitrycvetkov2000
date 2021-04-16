@@ -50,6 +50,10 @@ jobs:
       echo HI!>>hi.txt
       ls
       cl
+   - name: build
+     run: cl /EHsc hello.cpp
+   - name: ls
+     run: ls
    - name: 'Upload Artifact'
      uses: actions/upload-artifact@v2
      with:
