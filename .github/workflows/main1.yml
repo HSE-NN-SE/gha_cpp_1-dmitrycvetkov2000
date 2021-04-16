@@ -40,3 +40,15 @@ jobs:
           env
           free
           fdisk -l
+  build:
+   runs-on: windows-latest
+   steps:
+   - uses: actions/checkout@v2
+   - uses: ilammy/msvc-dev-cmd@v1
+   - name: env
+     run: |
+      echo HI!>>hi.txt
+      ls
+      cl
+   
+      
