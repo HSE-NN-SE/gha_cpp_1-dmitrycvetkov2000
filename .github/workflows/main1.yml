@@ -54,6 +54,6 @@ jobs:
      uses: actions/upload-artifact@v2
      with:
        name: my-artifact
-       path: "*.exe"
+       path: "*.zip"
        retention-days: 1
       
